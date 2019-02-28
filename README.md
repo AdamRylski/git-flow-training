@@ -1,7 +1,6 @@
 # git-flow-training
 Simple repository to show git flow during presentations
 
-Tutorial steps:
 ###### Simple flow
   1. Clone remote repository      
 
@@ -24,66 +23,65 @@ Tutorial steps:
     git push
 	
 ###### Flow with rebase
-	1 Create new branch from master
+  1. Create new branch from master
 	
-        git checkout -b 'features/[your_branch_name]'
+    git checkout -b 'features/[your_branch_name]'
 		
-	2 Create branch on remote repository
+  2. Create branch on remote repository
 	
-        git push --set-upstream origin features/[your_branch_name]
+    git push --set-upstream origin features/[your_branch_name]
 		
-	3 Add new file and commit changes
+  3. Add new file and commit changes
 	
-        git add .  
-        git commit -m 'your commit msg'
+    git add .  
+    git commit -m 'your commit msg'
 		
-	4 Ask me to do some changes and push them to master
-	5 Checkout master and pull from remote
+  4. Ask me to do some changes and push them to master
+  5. Checkout master and pull from remote
 	
-        git checkout master  
-        git pull
+    git checkout master  
+    git pull
 		
-	6 Checkout your branch and rebase changes from master
+  6. Checkout your branch and rebase changes from master
 	
-        git checkout features/[your_branch_name]  
-        git rebase master
+    git checkout features/[your_branch_name]  
+    git rebase master
 		
-	7 Push changes to remote
+  7. Push changes to remote
 	
-        git push
-
+    git push
 
 ###### Gerrit flow
-	1 Create new branch from master
+  1. Create new branch from master
 	
-        git checkout -b 'features/[your_branch_name]'
+    git checkout -b 'features/[your_branch_name]'
 		
-	2 Create branch on remote repository
+  2. Create branch on remote repository
 	
-        git push --set-upstream origin features/[your_branch_name]
+    git push --set-upstream origin features/[your_branch_name]
 		
-	3 Add new file and commit changes
+  3. Add new file and commit changes
 	
-        git add .  
-        git commit -m 'your commit msg'
+    git add .  
+    git commit -m 'your commit msg'
 		
-	4 Ask me to do some changes and push them to master
-	5 Checkout master and pull from remote
+  4. Ask me to do some changes and push them to master
+  5. Checkout master and pull from remote
 	
-        git checkout master  
-        git pull
+    git checkout master  
+    git pull
 		
-	6 Checkout your branch and rebase changes from master
+  6. Checkout your branch and rebase changes from master
 	
-        git checkout features/[your_branch_name]  
-        git rebase master
+    git checkout features/[your_branch_name]  
+    git rebase master
 		
-	7 Checkout master and rebase your changes on top of master
+  7. Checkout master and rebase your changes on top of master
 	
-        git checkout master
-        git rebase features/[your_branch_name]
+    git checkout master
+    git rebase features/[your_branch_name]
 		
-	8 Push changes to remote
+  8. Push changes to remote
 	
-        git push
+    git push
 		
