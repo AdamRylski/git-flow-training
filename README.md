@@ -20,6 +20,7 @@ Simple repository to show git flow during presentations
     git commit -m 'your commit msg'
 	
   5. Push changes to remote branch
+  
     git push
 	
 ###### Flow with rebase
